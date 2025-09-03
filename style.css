@@ -131,3 +131,99 @@ body {
     overflow: hidden;
     border-radius: 16px;
 }
+
+/* current Target */
+.current-target,.Next-target{
+    margin-bottom: 100px;
+}
+.current-target-boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 50px;
+}
+.current-box{
+    padding: 40px;
+    border-radius: 16px;
+}
+.current-box-1{
+    background-color: #ff4b1e11;
+}
+.current-box-2{
+    background-color: #004de813;
+}
+.current-box-3{
+    background-color: #ffdd0010;
+}
+.current-box,.next-box p{
+    font-size: 14px;
+}
+.current-box,.next-box a{
+    color: black;
+    font-weight: bold;
+}
+
+/* next Target */
+.next-target-boxes{
+    margin-top: 50px;
+}
+.next-box{
+    border: 1px solid rgba(128, 128, 128, 0.432);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* support */
+
+.support{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(images/handshake.jpg);
+    border-radius: 16px;
+    text-align: center;
+    padding: 64px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.support h2{
+    color: white;
+}
+.support p{
+    color: white;
+    font-size: 12px;
+    margin: 20px 0;
+}
+.form input{
+    height: 33px;
+    width: 370px;
+    border-radius: 7px;
+    border: none;
+    font-size: 13px;
+    padding-left: 20px;
+}
+.form button{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* footer */
+.footer{
+    background-color: #40c56811;
+    padding: 10px;
+}
+.footer-content h3{
+    font-size: 14px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
